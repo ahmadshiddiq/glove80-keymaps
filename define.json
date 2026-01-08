@@ -1,6 +1,6 @@
 {
   "defaults": {
-    "OPERATING_SYSTEM": "L",
+    "OPERATING_SYSTEM": "M",
     "COMBO_FIRING_DECAY": 50,
     "SHIFT_FIRING_DECAY": 50,
     "TAPPING_RESOLUTION": 150,
