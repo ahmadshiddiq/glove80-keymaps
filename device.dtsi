@@ -107,7 +107,7 @@
   //
   #define BSL &ug_sl LAC_RGB WHT_RGB // ScrollLock COLOR_OFF COLOR_ON
   #define BNL &ug_nl LAC_RGB WHT_RGB // NumLock    COLOR_OFF COLOR_ON
-  #define BCL &ug_cl COR_RGB WHT_RGB // CapsLock   COLOR_OFF COLOR_ON
+  #define BCL &ug_cl BLK_RGB WHT_RGB // CapsLock   COLOR_OFF COLOR_ON
 
   //
   // underglow for keyboard locks on the System layer
@@ -148,8 +148,8 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
-          YLW ___ ___ ___ ___ ___     LAC ___ ___     ___ ___ LAC     ___ ___ ___ ___ ___ YLW
-          ___ ___ ___ ___ LAC         BSL BNL BCL     COR LAC LAC         LAC ___ ___ ___ ___
+          YLW ___ ___ ___ ___ ___     LAC COR ___     ___ COR LAC     ___ ___ ___ ___ ___ YLW
+          ___ ___ ___ ___ LAC         BSL BNL BCL     ___ LAC LAC         LAC ___ ___ ___ ___
         >;
         layer-id = <0>;
       };
@@ -161,8 +161,8 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ GRN CYN MAJ YLW ___                                     ___ YLW MAJ CYN GRN ___
-          YLW ___ ___ ___ ___ ___     LAC ___ ___     ___ ___ LAC     ___ ___ ___ ___ ___ YLW
-          RED RED ___ ___ LAC         BSL BNL BCL     COR LAC LAC         LAC ___ ___ RED RED
+          YLW ___ ___ ___ ___ ___     LAC COR ___     ___ COR LAC     ___ ___ ___ ___ ___ YLW
+          RED RED ___ ___ LAC         BSL BNL BCL     ___ LAC LAC         LAC ___ ___ RED RED
         >;
         layer-id = <LAYER_macOS>;
       };
@@ -175,8 +175,8 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
-          YLW ___ ___ ___ ___ ___     LAC ___ ___     ___ ___ LAC     ___ ___ ___ ___ ___ YLW
-          ___ ___ ___ ___ LAC         BSL BNL BCL     COR LAC LAC         LAC ___ ___ ___ ___
+          YLW ___ ___ ___ ___ ___     LAC COR ___     ___ COR LAC     ___ ___ ___ ___ ___ YLW
+          ___ ___ ___ ___ LAC         BSL BNL BCL     ___ LAC LAC         LAC ___ ___ ___ ___
         >;
         layer-id = <LAYER_LeftPinky>;
       };
@@ -189,8 +189,8 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
-          YLW ___ ___ ___ ___ ___     LAC ___ ___     ___ ___ LAC     ___ ___ ___ ___ ___ YLW
-          ___ ___ ___ ___ LAC         BSL BNL BCL     COR LAC LAC         LAC ___ ___ ___ ___
+          YLW ___ ___ ___ ___ ___     LAC COR ___     ___ COR LAC     ___ ___ ___ ___ ___ YLW
+          ___ ___ ___ ___ LAC         BSL BNL BCL     ___ LAC LAC         LAC ___ ___ ___ ___
         >;
         layer-id = <LAYER_LeftRingy>;
       };
@@ -203,8 +203,8 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
-          YLW ___ ___ ___ ___ ___     LAC ___ ___     ___ ___ LAC     ___ ___ ___ ___ ___ YLW
-          ___ ___ ___ ___ LAC         BSL BNL BCL     COR LAC LAC         LAC ___ ___ ___ ___
+          YLW ___ ___ ___ ___ ___     LAC COR ___     ___ COR LAC     ___ ___ ___ ___ ___ YLW
+          ___ ___ ___ ___ LAC         BSL BNL BCL     ___ LAC LAC         LAC ___ ___ ___ ___
         >;
         layer-id = <LAYER_LeftMiddy>;
       };
@@ -217,8 +217,8 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
-          YLW ___ ___ ___ ___ ___     LAC ___ ___     ___ ___ LAC     ___ ___ ___ ___ ___ YLW
-          ___ ___ ___ ___ LAC         BSL BNL BCL     COR LAC LAC         LAC ___ ___ ___ ___
+          YLW ___ ___ ___ ___ ___     LAC COR ___     ___ COR LAC     ___ ___ ___ ___ ___ YLW
+          ___ ___ ___ ___ LAC         BSL BNL BCL     ___ LAC LAC         LAC ___ ___ ___ ___
         >;
         layer-id = <LAYER_LeftIndex>;
       };
@@ -231,8 +231,8 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
-          YLW ___ ___ ___ ___ ___     LAC ___ ___     ___ ___ LAC     ___ ___ ___ ___ ___ YLW
-          ___ ___ ___ ___ LAC         BSL BNL BCL     COR LAC LAC         LAC ___ ___ ___ ___
+          YLW ___ ___ ___ ___ ___     LAC COR ___     ___ COR LAC     ___ ___ ___ ___ ___ YLW
+          ___ ___ ___ ___ LAC         BSL BNL BCL     ___ LAC LAC         LAC ___ ___ ___ ___
         >;
         layer-id = <LAYER_RightIndex>;
       };
@@ -245,8 +245,8 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
-          YLW ___ ___ ___ ___ ___     LAC ___ ___     ___ ___ LAC     ___ ___ ___ ___ ___ YLW
-          ___ ___ ___ ___ LAC         BSL BNL BCL     COR LAC LAC         LAC ___ ___ ___ ___
+          YLW ___ ___ ___ ___ ___     LAC COR ___     ___ COR LAC     ___ ___ ___ ___ ___ YLW
+          ___ ___ ___ ___ LAC         BSL BNL BCL     ___ LAC LAC         LAC ___ ___ ___ ___
         >;
         layer-id = <LAYER_RightMiddy>;
       };
@@ -259,8 +259,8 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
-          YLW ___ ___ ___ ___ ___     LAC ___ ___     ___ ___ LAC     ___ ___ ___ ___ ___ YLW
-          ___ ___ ___ ___ LAC         BSL BNL BCL     COR LAC LAC         LAC ___ ___ ___ ___
+          YLW ___ ___ ___ ___ ___     LAC COR ___     ___ COR LAC     ___ ___ ___ ___ ___ YLW
+          ___ ___ ___ ___ LAC         BSL BNL BCL     ___ LAC LAC         LAC ___ ___ ___ ___
         >;
         layer-id = <LAYER_RightRingy>;
       };
@@ -273,8 +273,8 @@
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ MAJ CYN GRN YLW ___                                     ___ YLW GRN CYN MAJ ___
-          YLW ___ ___ ___ ___ ___     LAC ___ ___     ___ ___ LAC     ___ ___ ___ ___ ___ YLW
-          ___ ___ ___ ___ LAC         BSL BNL BCL     COR LAC LAC         LAC ___ ___ ___ ___
+          YLW ___ ___ ___ ___ ___     LAC COR ___     ___ COR LAC     ___ ___ ___ ___ ___ YLW
+          ___ ___ ___ ___ LAC         BSL BNL BCL     ___ LAC LAC         LAC ___ ___ ___ ___
         >;
         layer-id = <LAYER_RightPinky>;
       };
@@ -299,10 +299,10 @@
         bindings = <
           ___ ___ ___ ___ ___                                             GDN GDN GDN GDN GDN
           ___ COR COR COR COR ___                                     TEA SPG SPG SPG SPG SPG
-          GDN COR COR COR COR GOL                                     TEA GOL GOL GOL SPG SPG
+          ___ COR COR COR COR GOL                                     TEA GOL GOL GOL SPG SPG
           YLW MAJ CYN GRN YLW TEA                                     TEA GOL GOL GOL SPG SPG
-          TEA SPG SPG SPG PUR GDN     ___ ___ ___     SPG SPG SPG     TEA GOL GOL GOL SPG SPG
-          ___ PUR PUR PUR PUR         ___ RED ___     SPG SPG GOL         SPG SPG SPG SPG SPG
+          GDN SPG SPG SPG PUR GDN     ___ ___ ___     SPG SPG SPG     TEA GOL GOL GOL SPG SPG
+          TEA PUR PUR PUR PUR         ___ RED ___     SPG SPG GOL         SPG SPG SPG SPG SPG
         >;
         layer-id = <LAYER_Number>;
       };
@@ -315,8 +315,8 @@
           ___ COR COR COR COR ___                                     AZU AZU AZU AZU AZU AZU
           ___ COR COR COR COR GDN                                     GDN PNK PNK PNK PNK PNK
           YLW MAJ CYN GRN YLW GDN                                     GDN PNK PNK PNK PNK PNK
-          ___ SPG SPG SPG PUR GDN     RED ___ ___     BLU AZU AZU     GDN PNK PNK PNK PNK PNK
-          ___ PUR PUR PUR PUR         ___ ___ ___     BLU AZU AZU         CHU CHU CHU CHU CHU
+          ___ SPG SPG SPG PUR GDN     RED ___ ___     AZU BLU BLU     GDN PNK PNK PNK PNK PNK
+          ___ PUR PUR PUR PUR         ___ ___ ___     AZU AZU AZU         CHU CHU CHU CHU CHU
         >;
         layer-id = <LAYER_Function>;
       };
@@ -356,53 +356,53 @@
           ___ ___ ___ ___ ___                                             ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ SPG AZU SPG ___                                     GDN GDN GDN GDN GDN ___
-          ___ SPG AZU AZU AZU SPG                                     SPG FST SLO WRP PUR SPG
-          ___ SPG BLU BLU BLU SPG     GDN PUR GDN     BLU BLU BLU     SPG AZU AZU AZU AZU SPG
-          ___ ___ WRP SLO FST         GDN GDN GDN     ___ RED ___         YLW GRN CYN MAJ ___
+          ___ SPG AZU AZU AZU SPG                                     SPG FST WRP SLO PUR SPG
+          ___ SPG SLO WRP FST SPG     GDN PUR GDN     BLU BLU BLU     SPG AZU AZU AZU AZU SPG
+          ___ ___ BLU BLU BLU         GDN GDN GDN     ___ RED ___         YLW GRN CYN MAJ ___
         >;
         layer-id = <LAYER_Mouse>;
       };
       #endif
 
-      #ifdef LAYER_MouseFast
-      MouseFast {
+      #ifdef LAYER_Mouse_fast
+      Mouse_fast {
         bindings = <
           ___ ___ ___ ___ ___                                             ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ SPG FST SPG ___                                     GDN GDN GDN GDN GDN ___
-          ___ SPG FST FST FST SPG                                     SPG FST SLO WRP PUR GDN
-          ___ SPG BLU BLU BLU SPG     GDN PUR GDN     BLU BLU BLU     SPG FST FST FST FST GDN
-          ___ ___ FST FST FST         GDN GDN GDN     ___ RED ___         YLW GRN CYN MAJ ___
+          ___ SPG FST FST FST SPG                                     SPG FST WRP SLO PUR GDN
+          ___ SPG FST FST FST SPG     GDN PUR GDN     BLU BLU BLU     SPG FST FST FST FST GDN
+          ___ ___ BLU BLU BLU         GDN GDN GDN     ___ RED ___         YLW GRN CYN MAJ ___
         >;
-        layer-id = <LAYER_MouseFast>;
+        layer-id = <LAYER_Mouse_fast>;
       };
       #endif
 
-      #ifdef LAYER_MouseWarp
-      MouseWarp {
+      #ifdef LAYER_Mouse_warp
+      Mouse_warp {
         bindings = <
           ___ ___ ___ ___ ___                                             ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ SPG WRP SPG ___                                     GDN GDN GDN GDN GDN ___
-          ___ SPG WRP WRP WRP SPG                                     SPG FST SLO WRP PUR GDN
-          ___ SPG BLU BLU BLU SPG     GDN PUR GDN     BLU BLU BLU     SPG WRP WRP WRP WRP GDN
-          ___ ___ WRP WRP WRP         GDN GDN GDN     ___ RED ___         YLW GRN CYN MAJ ___
+          ___ SPG WRP WRP WRP SPG                                     SPG FST WRP SLO PUR GDN
+          ___ SPG WRP WRP WRP SPG     GDN PUR GDN     BLU BLU BLU     SPG WRP WRP WRP WRP GDN
+          ___ ___ BLU BLU BLU         GDN GDN GDN     ___ RED ___         YLW GRN CYN MAJ ___
         >;
-        layer-id = <LAYER_MouseWarp>;
+        layer-id = <LAYER_Mouse_warp>;
       };
       #endif
 
-      #ifdef LAYER_MouseSlow
-      MouseSlow {
+      #ifdef LAYER_Mouse_slow
+      Mouse_slow {
         bindings = <
           ___ ___ ___ ___ ___                                             ___ ___ ___ ___ ___
           ___ ___ ___ ___ ___ ___                                     ___ ___ ___ ___ ___ ___
           ___ ___ SPG SLO SPG ___                                     GDN GDN GDN GDN GDN ___
-          ___ SPG SLO SLO SLO SPG                                     SPG FST SLO WRP PUR GDN
-          ___ SPG BLU BLU BLU SPG     GDN PUR GDN     BLU BLU BLU     SPG SLO SLO SLO SLO GDN
-          ___ ___ SLO SLO SLO         GDN GDN GDN     ___ RED ___         YLW GRN CYN MAJ PUR
+          ___ SPG SLO SLO SLO SPG                                     SPG FST WRP SLO PUR GDN
+          ___ SPG SLO SLO SLO SPG     GDN PUR GDN     BLU BLU BLU     SPG SLO SLO SLO SLO GDN
+          ___ ___ BLU BLU BLU         GDN GDN GDN     ___ RED ___         YLW GRN CYN MAJ PUR
         >;
-        layer-id = <LAYER_MouseSlow>;
+        layer-id = <LAYER_Mouse_slow>;
       };
       #endif
 
